@@ -15,10 +15,10 @@ app.use(fileupload({ createParentPath: true }))
 app.use('/img', express.static('img'))
 
 const connection = mysql.createConnection({
-	host: 'localhost',
-	user: 'root',
-	password: '',
-	database: 'projektnode',
+	host: 'sql5.omega.avx.pl',
+	user: 'omega_oskar',
+	password: 'NoweHaslo12',
+	database: 'omega_oskar',
 })
 
 connection.connect(err => {
